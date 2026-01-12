@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Mandala AR</title>
+  
   <!-- A-Frame -->
   <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
   <!-- AR.js -->
@@ -13,8 +14,8 @@
     
     <!-- Marker AR -->
     <a-marker type="pattern" url="uwe.patt">
-      <!-- Immagine sospesa -->
-      <a-plane src="https://raw.githubusercontent.com/Demodeismo/mandalacode1/main/uwe.jpg"
+      <!-- Immagine sospesa sopra il marker -->
+      <a-plane src="uwe.jpg"
                height="1" width="1"
                position="0 0 0">
       </a-plane>
@@ -22,6 +23,7 @@
 
     <!-- Camera -->
     <a-entity camera></a-entity>
+    
   </a-scene>
 </body>
 </html>
